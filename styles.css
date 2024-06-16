@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+}
+
+.search-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.weather-card {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: rgba(215, 239, 246, 0.915);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+    margin-bottom: 10px;
+}
+
+.weather-card p {
+    margin: 8px 0;
+}
