@@ -27,14 +27,14 @@ function searchWeather() {
 }
 
 function fetchWeatherByCoordinates(lat, lng) {
-    const apiKey = '4631181686dee8146fe36453bd3e015a'; // Your OpenWeatherMap API key
+    const apiKey = 'your actual API Key'; // Your OpenWeatherMap API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${apiKey}&units=metric`;
 
     fetchWeather(apiUrl);
 }
 
 function fetchWeatherByLocation(location) {
-    const apiKey = '4631181686dee8146fe36453bd3e015a'; // Your OpenWeatherMap API key
+    const apiKey = 'your actual API Key'; // Your OpenWeatherMap API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
     fetchWeather(apiUrl);
